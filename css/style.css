@@ -34,6 +34,8 @@
 
     --efeito: #8200fc99;
 
+    --titulos: #8200fc;
+
     --fonte-titulo: 'Martian Mono';
     --fonte-padrao: 'Ubuntu';
 }
@@ -57,6 +59,11 @@ main {
     padding: 2%;
     border-radius: 20px;
     box-shadow: 6px 6px 8px rgba(94, 94, 94, 0.3), -6px -6px 8px rgba(94, 94, 94, 0.3);
+}
+
+.roxo {
+    color: var(--titulos);
+    text-shadow: 4px 5px 10px #80008080;
 }
 
 a {
@@ -170,8 +177,7 @@ a {
 
 .titulo h2 {
     margin-bottom: 30px;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-    color: #FFF;
+    
 }
 
 /********************* MAIN SECTION 1 *********************/
@@ -187,7 +193,7 @@ a {
     display: flex;
     flex-direction: row;
     font-size: 1.1em;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -216,7 +222,6 @@ a {
 
 .info-box h2 {
     margin: 30px 5px 40px 0;
-    color: #ffffff;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -246,7 +251,6 @@ a {
 
 .container-empresas h3 {
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-    color: #fff;
 }
 
 
@@ -304,7 +308,6 @@ a {
 
 .proj_passado h2 {
     font-size: 1.8em;
-    color: #fff;
     text-align: center;
     padding: 20px;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
@@ -368,7 +371,6 @@ span {
 
 #idealizadores h2 {
     font-size: 1.8em;
-    color: #fff;
     text-align: center;
     padding: 20px;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
@@ -553,7 +555,7 @@ span {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
 
     body {
         padding: 0;

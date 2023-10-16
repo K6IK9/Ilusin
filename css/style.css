@@ -133,7 +133,6 @@ a {
     width: 98%;
     margin: 0 auto 40px;
     justify-content: space-around;
-
     border-radius: 20px;
     background-color: var(--cor01);
     backdrop-filter: blur(100px);
@@ -194,7 +193,7 @@ a {
     flex-direction: row;
     font-size: 1.1em;
     justify-content: center;
-    flex-wrap: wrap;
+    width: 100%;
 }
 
 .container-info h3 {
@@ -203,7 +202,7 @@ a {
 }
 
 .info-box {
-    width: 40%;
+    width: 42%;
     display: flex;
     padding: 20px 50px;
     flex-direction: column;
@@ -211,7 +210,7 @@ a {
     background-color: var(--cor01);
     backdrop-filter: blur(100px);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    margin-bottom: 60px;
+    margin: 0 15px 30px;
     transition: all 0.5s;
 }
 
@@ -609,6 +608,7 @@ span {
     /************* corpo kaike ************/
     .info {
         width: 100%;
+        flex-wrap: wrap;
     }
 
     .info h2 {

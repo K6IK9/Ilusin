@@ -102,7 +102,7 @@ main {
 .navegacao-top a {
     text-decoration: none;
     color: #000;
-    margin: 20px;
+    margin: 12px;
     padding: 4px 6px;
     transition: all 0.5s;
     border-radius: 10px;
@@ -356,10 +356,6 @@ span {
     transition: 0.5s;
 }
 
-#idealizadores:hover {
-    border: 2px solid #8200fc99;
-}
-
 #idealizadores h2 {
     font-size: 1.8em;
     color: #fff;
@@ -561,9 +557,8 @@ span {
 
     /************* Header ************/
     .container-top {
-        width: 100%;
         position: fixed;
-        top: 10px;
+        max-height: 60px;
         font-size: 12px;
     }
 

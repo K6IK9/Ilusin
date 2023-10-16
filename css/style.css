@@ -403,13 +403,13 @@ span {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
-    padding: 5px;
+    padding: 10px;
     flex-wrap: wrap;
 }
 
 .ideal article {
     text-align: justify;
-    width: 270px;
+    width: 300px;
     max-height: 100%;
     padding: 10px 10px;
     display: flex;
@@ -467,10 +467,6 @@ span {
     border-radius: 50%;
 }
 
-.foto-gustavo {
-    padding: 15px;
-    background-color: #fff;
-}
 
 
 

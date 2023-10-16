@@ -403,13 +403,13 @@ span {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
-    padding: 10px;
+    padding: 5px;
     flex-wrap: wrap;
 }
 
 .ideal article {
     text-align: justify;
-    width: 300px;
+    width: 270px;
     max-height: 100%;
     padding: 10px 10px;
     display: flex;

@@ -131,12 +131,6 @@ main {
 
 }
 
-.central:hover {
-    border: 2px solid #8200fc99;
-    background-color: #b9b9b9;
-    transform: scale(1.02);
-
-}
 
 .central:active {
     transform: scale(0.95) rotateZ(1.2deg);
@@ -211,11 +205,6 @@ main {
     transition: all 0.5s;
 }
 
-.info-box:hover {
-    border: 2px solid #8200fc99;
-    background-color: #b9b9b9;
-    transform: scale(1.02);
-}
 
 .info-box:active {
     transform: scale(0.95) rotateZ(1.2deg);
@@ -254,12 +243,6 @@ main {
 .container-empresas h3 {
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
     color: #fff;
-}
-
-.container-empresas:hover {
-    border: 2px solid #8200fc99;
-    background-color: #b9b9b9;
-    transform: scale(1.02);
 }
 
 
@@ -312,12 +295,6 @@ main {
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     transition: 0.5s;
-}
-
-.proj_passado:hover {
-    border: 2px solid #8200fc99;
-    background-color: #b9b9b9;
-    transform: scale(1.02);
 }
 
 
@@ -409,7 +386,7 @@ span {
 
 .ideal article {
     text-align: justify;
-    width: 280px;
+    width: 29%;
     max-height: 100%;
     padding: 10px 5px;
     display: flex;

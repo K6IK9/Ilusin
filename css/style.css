@@ -46,7 +46,7 @@ body {
     width: 100%;
     background-color: var(--fundo);
     font-family: var(--fonte-padrao);
-    line-height: 22px;
+    line-height: 28px;
 }
 
 main {
@@ -128,7 +128,7 @@ a {
 /********************* MAIN SECTION 1 - GUSTAVO *********************/
 .central {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 98%;
     margin: 0 auto 40px;
     justify-content: space-around;
@@ -137,7 +137,6 @@ a {
     backdrop-filter: blur(100px);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     transition: all 0.5s;
-
 }
 
 
@@ -164,18 +163,22 @@ a {
     border-radius: 50px;
 }
 
-
-
 .titulo {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     width: 60%;
+    
 }
 
 .titulo h2 {
     margin-bottom: 30px;
-    
+    font-size: 2.5em;
+}
+
+.titulo h3 {
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 
 /********************* MAIN SECTION 1 *********************/
@@ -223,7 +226,6 @@ a {
 
 .info-box h2 {
     margin: 30px 5px 40px 0;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 .info-box p {
@@ -249,11 +251,6 @@ a {
     transition: all 0.5s;
     margin-bottom: 40px;
 }
-
-.container-empresas h3 {
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-}
-
 
 .info-box-bottom {
     display: flex;
@@ -311,8 +308,6 @@ a {
     font-size: 1.8em;
     text-align: center;
     padding: 20px;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
 }
 
 .proj_passado h3 {
@@ -334,13 +329,10 @@ a {
 }
 
 .proj:hover {
-    
     transform: scale(1.01);
     box-shadow: 8px 8px #8200fc99, -8px -8px #9619b2;
     background-color: #fff;
 }
-
-
 
 .proj div {
     max-width: 500px;
@@ -374,7 +366,6 @@ span {
     font-size: 1.8em;
     text-align: center;
     padding: 20px;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 #idealizadores h3 {

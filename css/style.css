@@ -163,8 +163,8 @@ a {
     max-width: 60%;
     margin-left: 5%;
     border-radius: 50px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
+
 
 
 .titulo {
@@ -581,11 +581,11 @@ span {
     }
 
     .navegacao-top img {
-        max-width: 40px;
+        max-width: 10%;
     }
 
     .navegacao-top a {
-        margin: 9px;
+        margin: 5px;
     }
 
     /************* corpo gustavo ************/

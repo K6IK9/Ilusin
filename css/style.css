@@ -86,7 +86,6 @@ a {
     backdrop-filter: blur(10px);
     border-radius: 30px;
     user-select: none;
-
 }
 
 .navegacao-top {
@@ -101,13 +100,13 @@ a {
 
 .navegacao-top img {
     max-width: 50px;
-    border-radius: 20px;
+    border-radius: 25px;
     transition: 1s;
 }
 
 .navegacao-top img:hover {
-    transform: scale(1.1);
-    box-shadow: 4px 4px 4px 10px #8200fc99, -4px -4px 4px 10px #d000ff;
+    transform: scale(1.6);
+    box-shadow: 4px 4px 4px 1055px #8200fc99, -4px -4px 4px 15550px #d000ff;
 }
 
 .navegacao-top a {
@@ -120,7 +119,7 @@ a {
 }
 
 .navegacao-top a:hover {
-    background-color: #00000048;
+    background-color: #000000;
     color: #fff;
     transform: scale(1.1);
     box-shadow: 4px 4px #8200fc99, -4px -4px #9619b2;
@@ -236,7 +235,7 @@ a {
 }
 
 .info-box img {
-    width: 25%;
+    width: 200px;
     border-radius: 20px;
 
 }
@@ -424,12 +423,10 @@ span {
 
 .ideal article div p {
     padding: 0px 10px;
-    height: 220px;
 }
 
 
 .ideal article ul {
-    max-height: 50px;
     padding: 30px;
     display: flex;
     justify-content: space-around;
@@ -601,7 +598,7 @@ span {
 
     .card img {
         width: 40%;
-        margin-top: 50px;
+        margin-bottom: 30px;
     }
 
     .titulo h2 {
@@ -612,6 +609,7 @@ span {
     .info {
         width: 100%;
         flex-wrap: wrap;
+
     }
 
     .info h2 {
@@ -624,7 +622,7 @@ span {
 
     .info-box {
         width: 80%;
-
+        margin: 0 0 30px;
     }
 
     .info-box p {

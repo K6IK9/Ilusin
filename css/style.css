@@ -298,7 +298,7 @@ a {
 
 .proj_passado {
     background-color: var(--cor01);
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-bottom: 50px;
     padding: 20px;
@@ -321,7 +321,7 @@ a {
 
 .proj {
     font-size: 1.1em;
-    max-width: 90%;
+    width: 90%;
     margin: 30px auto;
     color: #202020;
     padding: 10px;
@@ -345,7 +345,7 @@ a {
 
 .proj img {
     margin: 15px 0px;
-    width: 300px;
+    max-width: 500px;
     border-radius: 5px;
 }
 
@@ -556,7 +556,7 @@ span {
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
 
     body {
         padding: 0;
@@ -585,6 +585,7 @@ span {
     }
     .navegacao-top img {
         width: 9%;
+        margin: 5px 0;
     }
 
     .navegacao-top a {
@@ -592,7 +593,6 @@ span {
         text-align: center;
         padding: 1px;
         width: 100%;
-        
     }
 
     /************* corpo gustavo ************/

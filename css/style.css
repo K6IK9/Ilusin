@@ -439,9 +439,7 @@ span {
     display: flex;
     justify-content: space-around;
 }
-.ideal article ul li {
-    padding: ;
-}
+
 
 .ideal article ul img {
     transition: 0.5s;

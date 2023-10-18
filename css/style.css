@@ -170,10 +170,13 @@ a {
     width: 60%;
 }
 
+.titulo h1 {
+    font-size: 2.8em;
+}
+
 .titulo h1,
 .titulo h2 {
     margin-bottom: 30px;
-    font-size: 2.8em;
 }
 
 .titulo h3 {

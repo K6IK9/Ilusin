@@ -578,13 +578,21 @@ span {
         position: fixed;
         font-size: 11px;
     }
-
+    .navegacao-top {
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+    }
     .navegacao-top img {
-        max-width: 9%;
+        width: 9%;
     }
 
     .navegacao-top a {
-        margin: 5px;
+        margin: 2px 3%;
+        text-align: center;
+        padding: 1px;
+        width: 100%;
+        
     }
 
     /************* corpo gustavo ************/

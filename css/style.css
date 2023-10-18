@@ -583,11 +583,11 @@ span {
     /************* Header ************/
     .container-top {
         position: fixed;
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .navegacao-top img {
-        max-width: 10%;
+        max-width: 9%;
     }
 
     .navegacao-top a {

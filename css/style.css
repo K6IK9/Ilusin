@@ -392,12 +392,12 @@ span {
 .ideal article {
     text-align: justify;
     width: 29%;
-    max-height: 100%;
     padding: 10px 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     transition: 0.4s;
+    flex-wrap: wrap;
 
 }
 
@@ -411,13 +411,19 @@ span {
 
 .ideal article h3 {
     font-size: 1.1em;
-    max-width: 300px;
+   
     text-shadow: 2px 5px 12px #b5fff8b0;
     font-family: var(--fonte-titulo);
 }
 
+.ideal article div {
+    display: flex;
+    flex-direction: column;
+}
+
 .ideal article div p {
     padding: 0px 10px;
+    margin-bottom: 20px;
 }
 
 
@@ -426,6 +432,7 @@ span {
     display: flex;
     justify-content: space-around;
 }
+
 
 .ideal article ul img {
     transition: 0.5s;
@@ -657,7 +664,7 @@ span {
     }
 
     .ideal article div p {
-        height: 120px;
+        margin-bottom: 0;
     }
 
     .ideal article h3 {

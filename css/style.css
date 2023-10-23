@@ -47,6 +47,7 @@ body {
     background-color: var(--fundo);
     font-family: var(--fonte-padrao);
     line-height: 28px;
+    transition: 0.5s;
 }
 
 main {

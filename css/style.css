@@ -690,6 +690,175 @@ span {
 
     .card img {
         width: 20%;
+        margin: 50px;
+
+    }
+
+    .titulo h2 {
+        text-align: center;
+    }
+
+    .titulo p {
+        margin-right: 50px;
+    }
+
+    /************* corpo kaike ************/
+    .info {
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+
+    .info h2 {
+        font-size: 1.6em;
+    }
+
+    .info img {
+        width: 90px;
+    }
+
+    .info-box {
+        width: 80%;
+        margin: 0 0 30px;
+    }
+
+    .info-box p {
+        padding: 0 10px 10px 0;
+        text-align: justify;
+    }
+
+    /************* corpo joao ************/
+    .proj_passado {
+        width: 95%;
+    }
+
+
+
+    .proj {
+        font-size: 1.1em;
+        width: 94%;
+        transition: 0.5s;
+        background-color: #e3e3e379;
+        box-shadow: 2px 2px 15px #00000012, -2px -2px 15px #00000012;
+        border-radius: 10px;
+        padding: 30px 0;
+    }
+
+
+
+
+    .proj img {
+        width: 55%;
+        margin-top: 20px;
+    }
+
+
+
+    /* --------------- IDEALIZADORES --------------*/
+
+
+    #idealizadores {
+        width: 90%;
+        padding: 20px;
+
+    }
+    #idealizadores h3 {
+        padding: 18px;
+    }
+
+    .ideal article {
+        align-content: center;
+        margin: 20px 0;
+        padding: 10px 0;
+    }
+
+
+    .ideal article div p {
+        margin-bottom: 0;
+        height: 50px;
+    }
+
+    .ideal article div p {
+        padding: 0px 10px;
+        margin-bottom: 20px;
+
+    }
+
+    .ideal article h3 {
+        font-size: 1.2em;
+        
+    }
+
+    .ideal img {
+        width: 30%;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*
+@media (max-width: 1200px) {
+
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        width: 93%;
+    }
+
+    p {
+        color: #282828;
+    }
+
+    /************* Header ************/
+/*
+    .container-top {
+        position: 7fixed;
+    }
+
+    .navegacao-top {
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+    }
+
+    .navegacao-top img {
+        width: 9%;
+        margin: 5px 0;
+    }
+
+    .navegacao-top a {
+        margin: 2px 3%;
+        text-align: center;
+        padding: 1px;
+        width: 100%;
+    }
+
+    /************* corpo gustavo ************/
+/*
+    .card {
+        width: 100%;
+        margin: 0;
+        flex-wrap: nowrap;
+    }
+
+    .titulo {
+        width: 80%;
+        text-align: justify;
+    }
+
+    .card img {
+        width: 20%;
        margin: 50px;
 
     }
@@ -703,6 +872,7 @@ span {
     }
 
     /************* corpo kaike ************/
+/*
     .info {
         width: 100%;
         flex-wrap: wrap;
@@ -728,6 +898,8 @@ span {
     }
 
     /************* corpo joao ************/
+
+/*
     .proj_passado {
         width: 96%;
     }
@@ -749,7 +921,7 @@ span {
 
 
     .proj img {
-        width: 10%;
+        width: 5%;
         margin-top: 20px;
     }
 
@@ -779,3 +951,5 @@ span {
         width: 40%;
     }
 }
+
+*/

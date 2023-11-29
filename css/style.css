@@ -891,6 +891,11 @@ span {
         pointer-events: none;
 
     }
+    .wrap {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
 
     .proj:hover {
         transform: scale(1.0);

@@ -1130,7 +1130,7 @@ span {
     }
 
     .ideal article {
-        width: 90%;
+        width: 95%;
         margin: 20px 0;
         padding: 10px 0;
     }
@@ -1145,8 +1145,8 @@ span {
 
     .ideal article div {
         height: 220px;
-
     } 
+    
     .ideal article div p {
         margin-bottom: 0;
     }

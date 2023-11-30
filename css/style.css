@@ -1165,5 +1165,21 @@ span {
     }
 }
 
+@media (max-width: 420px) {
+    .navegacao-top a {
+    margin: 2px 3px;
+    }
 
+
+    
+    .ideal article div {
+        height: 280px;
+    } 
+
+    .box img {
+        max-width: 50px;
+    }
+    
+    
+}
 

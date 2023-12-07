@@ -124,10 +124,16 @@ body {
     box-shadow: 4px 4px #8200fc99, -4px -4px #9619b2;
 }
 
-.container-top div {
+
+.caixa_busca {
+    width: 700px;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+    margin: 5px auto 0;
+    box-shadow: #a3a3a3ad 0px -5px 10px;
 }
 
 .container-top div img {
@@ -140,24 +146,17 @@ body {
     width: 600px;
     height: 40px;
     padding: 5px 15px;
-    border-radius: 20px 0px 20px 0px;
     font-size: 1em;
     border: none;
     transition: 0.08s;
     margin-top: 10px;
     margin-left: 10px;
-    background-color: #05204A;
-    color: #fff;
+    color: #000;
 }
 
 .container-top input:focus {
     outline: none;
-    box-shadow: 0px 0px 15px var(--efeito);
-    width: 601px;
-    height: 42px;
     transition: 0.08s;
-    margin-top: 8px;
-    margin-left: 7px;
 }
 
 .fundo-top {

@@ -40,6 +40,10 @@
     --fonte-padrao: 'Ubuntu';
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -47,12 +51,10 @@ body {
     background-color: var(--fundo);
     font-family: var(--fonte-padrao);
     line-height: 28px;
-    scroll-behavior: smooth;
     transition: 1s;
 }
 
 main {
-    scroll-behavior: smooth;
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -93,7 +95,9 @@ a {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     backdrop-filter: blur(10px);
     border-radius: 30px;
+    transition: 0.8s;
 }
+
 
 .navegacao-top {
     margin: auto;

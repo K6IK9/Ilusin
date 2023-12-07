@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+:root {
+    --cor01: #E1E2EF;
+    --fundo: #05204A;
+
+    --efeito: #8200fc99;
+
+    --titulos: #8200fc;
+
+    --fonte-titulo: 'Martian Mono';
+    --fonte-padrao: 'Ubuntu';
+}
+
+
+
+.sec_galeria, .sec_galeria02 {
+    width: 100%;
+    padding-left: 3%;
+    overflow: hidden;
+}
+
+
+.primeira h1 {
+    padding: 30px 0px 5px 0px;
+    width: 90%;
+    margin: auto;
+}
+
+.segunda h1 {
+    padding: 5px 0px;
+    width: 90%;
+    margin: auto;
+}
+  
+.conteudo, .conteudo02 {
+    white-space: nowrap;
+    color: var(--cor01);
+}
+  
+.conteudo figure, .conteudo02 figure {
+    display: inline-block;
+    background-color: var(--fundo);
+    width: 500px; /* Defina a largura desejada para as imagens */
+    height: 300px; /* Defina a altura desejada para as imagens */
+    margin: 5px 8px;
+    border-radius: 15px 15px 25px 25px;
+    box-shadow: 2px 1px 8px rgba(0, 0, 0, 0.345)
+}
+
+.conteudo figure:hover, .conteudo02 figure:hover{ 
+    transition: 0.5s;
+    box-shadow: 4px 4px #8200fc99, -4px -4px #9619b2;
+}
+
+.conteudo div, .conteudo02 div {
+    padding: 20px;
+}
+
+.conteudo img, .conteudo02 img{
+    width: 100%;
+    height: 60%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+.segunda {
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 580px) {
+    .conteudo figure, .conteudo02 figure {
+        width: 55%;
+        height: 10%;
+    }
+
+    container-top div {
+        justify-content: center;
+    }
+
+    .container-top input {
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .fundo-top {
+        height: 190px;
+    }
+}

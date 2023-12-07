@@ -1,0 +1,309 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+    --cor01: #E1E2EF;
+    --fundo: #05204A;
+
+    --efeito: #8200fc99;
+
+    --titulos: #8200fc;
+
+    --fonte-titulo: 'Martian Mono';
+    --fonte-padrao: 'Ubuntu';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    line-height: 28px;
+    background-image: linear-gradient(to top, var(--fundo) 1%, var(--cor01) 16%, var(--cor01) , var(--cor01));
+}
+
+.secao {
+    width: 90%;
+    margin: auto;
+}
+
+
+/*------------- sessões com texto e imagem estática------------*/
+
+.infos article{
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.infos {
+    margin: 100px auto;
+}
+
+.infos h2 {
+    margin-bottom: 10px;
+}
+
+.infos div, .infos figure {
+    width: 100%;
+}
+
+.temporario {
+    margin-left: 15px;
+}
+
+.temporario02 {
+    margin-right: 15px;
+}
+
+.temporario, .temporario02 {
+    height: 200px;
+    background-color: brown;
+}
+
+
+/*-------------- ESTILO PARA O HEADER ---------*/
+
+.container-top {
+    background-color: #ffffffb4;
+    position: fixed;
+    width: 96%;
+    right: 2%;
+    top: 2%;
+    z-index: 1;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+}
+
+.navegacao-top {
+    padding-top: 5px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navegacao-top img {
+    max-width: 50px;
+    border-radius: 25px;
+    transition: 1s;
+}
+
+.navegacao-top a {
+    text-decoration: none;
+    color: #000;
+    margin: 12px;
+    padding: 4px 6px;
+    transition: all 0.5s;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.navegacao-top a:hover {
+    background-color: #000000;
+    color: #fff;
+    transform: scale(1.1);
+    box-shadow: 4px 4px #8200fc99, -4px -4px #9619b2;
+}
+
+.container-top div {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.container-top div img {
+    max-width: 22px;
+    transform: rotate(90deg);
+    margin-top: 9px;
+}
+
+.container-top input {
+    width: 600px;
+    height: 40px;
+    padding: 5px 15px;
+    border-radius: 20px 0px 20px 0px;
+    font-size: 1em;
+    border: none;
+    transition: 0.08s;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #05204A;
+    color: #fff;
+}
+
+.container-top input:focus {
+    outline: none;
+    box-shadow: 0px 0px 15px var(--efeito);
+    width: 601px;
+    height: 42px;
+    transition: 0.08s;
+    margin-top: 8px;
+    margin-left: 7px;
+}
+
+.fundo-top {
+    background-image: linear-gradient(to bottom, var(--fundo) 4%, var(--cor01));
+    height: 150px;
+}
+
+/* ---------------------- carrosel -------------*/
+
+.sec_galeria02 {
+    height: 500px;
+}
+
+
+/* ---------------------- CONTATOS -------------*/
+
+#contato {
+    background-color: var(--cor01);
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 2px 2px 5px #ffffff1f, -2px -2px 5px #ffffff1f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: 0.5s;
+}
+
+#contato:hover {
+    max-width: 610px;
+    transition: 0.5s;
+    box-shadow: 8px 8px 0px #8200fc99, -8px -8px 0px #9619b2;
+}
+
+#contato h1 {
+    font-family: var(--fonte-titulo);
+
+}
+
+.ilusion {
+    padding: 5px;
+    display: flex;
+    max-width: 250px;
+    align-items: center;
+}
+
+.ilusion img {
+    max-width: 80px;
+    margin-right: 10px;
+}
+
+.ilusion h1 {
+    font-size: 1.2em;
+}
+
+.ilusion p {
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #6e0e6e;
+}
+
+.links {
+    font-size: 0.7em;
+    max-width: 200px;
+    padding: 5px;
+}
+
+.links nav {
+    display: flex;
+    justify-content: end;
+    padding: 2px;
+}
+
+
+.links img {
+    margin: 10px;
+    max-width: 25px;
+    padding: 3px;
+    transition: 0.2s;
+}
+
+.links img:hover {
+    border-radius: 5px;
+    background-color: var(--efeito);
+    box-shadow: 0px 0px 10px var(--efeito);
+}
+
+/* ----------- RODAPÉ ------*/
+
+.rodape {
+    background-color: #ffffff;
+    backdrop-filter: blur(5px);
+    text-align: center;
+    font-weight: 500;
+    padding: 10px;
+}
+
+
+@media only screen and (max-width: 580px) {  
+    .container-top div {
+        justify-content: center;   
+        position: relative; 
+    }
+    
+    
+    .container-top div img {
+        max-width: 12px;
+        position: absolute;
+        left: 115px;
+    }
+
+    .container-top input {
+        width: 188px;
+        height: 30px;
+        border-radius: 20px 20px 0px 0px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .container-top input:focus {
+        width: 200px;
+        height: 30px;
+        transition: 0.08s;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    
+    .infos article {
+        flex-direction: column;
+    }
+
+    .part2 article {
+        flex-direction: column-reverse;
+    }
+
+    .infos div, .infos figure {
+        width: 100%;
+    }
+
+    .temporario, .temporario02 {
+        height: 200px;
+        margin-top: 10px;
+        margin-left: 0px;
+        background-color: rgb(42, 147, 165);
+    }
+}
+
+
+

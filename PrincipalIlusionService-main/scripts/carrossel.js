@@ -66,3 +66,21 @@ galeria02.addEventListener('mousemove', (e) => {
   const walk02 = (x02 - startX02) * 1.1;
   galeria02.scrollLeft = scrollLeft02 - walk02;
 });
+
+
+/***** header sumiço*****/
+
+
+let prevScrollPos = window.pageYOffset;
+
+window.onscroll = function() {
+  let currentScrollPos = window.pageYOffset;
+
+  if (prevScrollPos > currentScrollPos) {
+    document.getElementById("header").style.top = "5px";
+  } else {
+    document.getElementById("header").style.top = "-80px"; // Altura do cabeçalho para escondê-lo completamente
+  }
+
+  prevScrollPos = currentScrollPos;
+}

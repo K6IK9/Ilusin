@@ -27,19 +27,6 @@
     overflow: hidden;
 }
 
-
-.primeira h1 {
-    padding: 30px 0px 5px 0px;
-    width: 90%;
-    margin: auto;
-}
-
-.segunda h1 {
-    padding: 5px 0px;
-    width: 90%;
-    margin: auto;
-}
-  
 .conteudo, .conteudo02 {
     white-space: nowrap;
     color: var(--cor01);

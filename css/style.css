@@ -540,13 +540,18 @@ span {
 }
 
 
-.links img {
+.links .img {
     margin: 10px;
-    max-width: 25px;
+    width: 31px;
     padding: 3px;
 }
 
-.links img:hover {
+.svg_gmail {
+    width: 41px;
+    margin: 10px;
+
+}
+.svg_gmail:hover, .links .img:hover {
     transition: 0.2s;
     border-radius: 5px;
     background-color: var(--efeito);

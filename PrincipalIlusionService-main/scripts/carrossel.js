@@ -77,9 +77,9 @@ window.onscroll = function() {
   let currentScrollPos = window.pageYOffset;
 
   if (prevScrollPos > currentScrollPos) {
-    document.getElementById("header").style.top = "5px";
+    document.getElementById("header").style.top = "4px";
   } else {
-    document.getElementById("header").style.top = "-80px"; // Altura do cabeçalho para escondê-lo completamente
+    document.getElementById("header").style.top = "-55px"; // Altura do cabeçalho para escondê-lo completamente
   }
 
   prevScrollPos = currentScrollPos;

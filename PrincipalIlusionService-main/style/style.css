@@ -37,49 +37,6 @@ body {
     width: 100%;
 }
 
-.secao {
-    width: 90%;
-    margin: auto;
-}
-
-
-/*------------- sessões com texto e imagem estática------------*/
-
-.infos article{
-    margin: 30px auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.infos {
-    margin: 50px auto;
-    padding: 50px;
-}
-
-.infos h2 {
-    margin-bottom: 10px;
-    font-size: 1.5em;
-}
-
-.infos div, .infos figure {
-    width: 100%;
-}
-
-.temporario {
-    margin-left: 15px;
-}
-
-.temporario02 {
-    margin-right: 15px;
-}
-
-.temporario, .temporario02 {
-    height: 200px;
-    background-color: brown;
-}
-
-
 /*-------------- ESTILO PARA O HEADER ---------*/
 
 .container-top {
@@ -169,13 +126,60 @@ body {
     height: 150px;
 }
 
+
+
+/*------------- sessões com texto e imagem estática------------*/
+
+.secao {
+    width: 90%;
+    margin: auto;
+}
+
+.infos article {
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.infos {
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.conteudo_cliente {
+    text-align: justify;
+}
+
+.infos h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.infos div,
+.infos figure {
+    width: 100%;
+}
+
+.temporario {
+    margin-left: 15px;
+}
+
+.temporario02 {
+    margin-right: 15px;
+}
+
+.temporario,
+.temporario02 {
+    height: 200px;
+    background-color: brown;
+}
+
 /* ---------------------- carrosel -------------*/
 
 .sec_galeria02 {
     height: 500px;
 }
-
-
 
 .titulo {
     padding: 5px 0px;
@@ -262,7 +266,9 @@ body {
     margin: 10px;
 
 }
-.svg_gmail:hover, .links .img:hover {
+
+.svg_gmail:hover,
+.links .img:hover {
     transition: 0.2s;
     border-radius: 5px;
     background-color: var(--efeito);
@@ -283,42 +289,72 @@ body {
 
 
 
+
+
+
 /* ----------- Edições para dispositiveis moveis ------*/
 
 
+@media only screen and (max-width: 1080px) {
 
+    /* ----------- Headeer ------*/
 
-
-
-@media only screen and (max-width: 580px) {  
-    .container-top div {
-        justify-content: center;   
-        position: relative; 
-    }
-    
-    
-    .container-top div img {
-        max-width: 12px;
-        position: absolute;
-        left: 115px;
+    .caixa_busca {
+        width: 50%;
+        justify-content: space-around;
+        padding: 0 10px;
     }
 
     .container-top input {
-        width: 188px;
-        height: 30px;
-        border-radius: 20px 20px 0px 0px;
-        margin-top: 10px;
-        margin-left: 0px;
+        width: 90%;
+        height: 40px;
+
     }
 
-    .container-top input:focus {
-        width: 200px;
-        height: 30px;
-        transition: 0.08s;
-        margin-top: 10px;
-        margin-left: 0px;
+}
+
+
+@media only screen and (max-width: 728px) {
+
+    .infos {
+        padding: 8px;
+
     }
-    
+
+
+}
+
+
+@media only screen and (max-width: 610px) {
+
+    /* ----------- Headeer ------*/
+
+    .navegacao-top {
+        width: 95%;
+        justify-content: space-between;
+    }
+
+
+    .infos {
+        margin: 36px auto;
+        padding: 13px;
+    }
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 580px) {
+
+
+    /* ----------- Headeer ------*/
+
+
+
     .infos article {
         flex-direction: column;
     }
@@ -327,11 +363,13 @@ body {
         flex-direction: column-reverse;
     }
 
-    .infos div, .infos figure {
+    .infos div,
+    .infos figure {
         width: 100%;
     }
 
-    .temporario, .temporario02 {
+    .temporario,
+    .temporario02 {
         height: 200px;
         margin-top: 10px;
         margin-left: 0px;
@@ -339,5 +377,26 @@ body {
     }
 }
 
+@media only screen and (max-width: 520px) {
 
+    .navegacao-top a {
+        margin: 5px
+    }
+    
+}
 
+@media only screen and (max-width: 455px) {
+
+    .navegacao-top {
+        width: 100%;
+    }
+
+    .navegacao-top a {
+        margin: 5px
+    }
+
+    .navegacao-top img {
+        max-width: 30px;
+}
+
+}

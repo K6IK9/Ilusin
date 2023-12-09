@@ -20,7 +20,6 @@
 }
 
 
-
 .sec_galeria, .sec_galeria02 {
     width: 100%;
     padding-left: 3%;
@@ -39,12 +38,15 @@
     height: 300px; /* Defina a altura desejada para as imagens */
     margin: 5px 8px;
     border-radius: 15px 15px 25px 25px;
-    box-shadow: 2px 1px 8px rgba(0, 0, 0, 0.345)
+    box-shadow: 2px 1px 8px rgba(0, 0, 0, 0.345);
+    transition: 0.3s;
 }
 
 .conteudo figure:hover, .conteudo02 figure:hover{ 
-    transition: 0.5s;
-    box-shadow: 4px 4px #8200fc99, -4px -4px #9619b2;
+    
+    background-color: black;
+    color: white;
+    
 }
 
 .conteudo div, .conteudo02 div {
@@ -62,21 +64,59 @@
     margin-bottom: 100px;
 }
 
-@media only screen and (max-width: 580px) {
+/* ----------- Edições para dispositiveis moveis ------*/
+
+
+@media only screen and (max-width: 1025px) {
     .conteudo figure, .conteudo02 figure {
-        width: 55%;
-        height: 10%;
+        width: 50%;
+        
     }
 
-    container-top div {
-        justify-content: center;
+}
+
+
+@media only screen and (max-width: 728px) {
+    .conteudo figure, .conteudo02 figure {
+        width: 60%;
+        
+    }
+}
+
+@media only screen and (max-width: 728px) {
+
+    .conteudo figure, .conteudo02 figure {
+        width: 70%;
+        
     }
 
-    .container-top input {
-        border-radius: 20px 20px 0px 0px;
+}
+
+
+
+
+
+@media only screen and (max-width: 580px) {
+
+    .conteudo figure, .conteudo02 figure {
+        width: 65%;
     }
 
-    .fundo-top {
-        height: 190px;
+}
+
+@media only screen and (max-width: 420px) {
+
+    .conteudo figure, .conteudo02 figure {
+        width: 80%;
     }
+
+}
+
+@media only screen and (max-width: 430px) {
+
+    .conteudo figure, .conteudo02 figure {
+        width: 80%;
+        height: 260px;
+    }
+
 }

@@ -1007,7 +1007,7 @@ span {
     /************* Header ************/
 
     .container-top {
-        position: 7fixed;
+        position: fixed;
     }
 
     .navegacao-top {

@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 :root {
-    --cor01: #E1E2EF;
+    --cor01:
     --fundo: #05204A;
 
     --efeito: #8200fc99;
@@ -107,7 +107,6 @@ body {
 .container-top input {
     width: 600px;
     height: 40px;
-    padding: 5px 15px;
     font-size: 1em;
     border: none;
     transition: 0.08s;
@@ -119,6 +118,18 @@ body {
 .container-top input:focus {
     outline: none;
     transition: 0.08s;
+}
+
+
+.butt_input {
+    background-color: white;
+    border: none;
+    border-left: 1px solid #bebebe;
+    display: inline;
+    width: 50px;
+    height: 55px;
+    cursor: pointer;
+   
 }
 
 .fundo-top {
@@ -330,28 +341,28 @@ body {
         box-shadow: 6px 6px #8200fc99, -6px -6px #9619b2;
     }
 
-    
 
 
 
 
 
 
- /* ---------------------- CONTATOS -------------*/
 
- .links img:hover {
-    transition: 0.2s;
-    border-radius: 0px;
-    background-color: var(--cor01);
-    box-shadow: none;
-}
+    /* ---------------------- CONTATOS -------------*/
 
-.links img:active {
-    transition: 0.2s;
-    border-radius: 5px;
-    background-color: var(--efeito);
-    box-shadow: 0px 0px 10px var(--efeito);
-}
+    .links img:hover {
+        transition: 0.2s;
+        border-radius: 0px;
+        background-color: var(--cor01);
+        box-shadow: none;
+    }
+
+    .links img:active {
+        transition: 0.2s;
+        border-radius: 5px;
+        background-color: var(--efeito);
+        box-shadow: 0px 0px 10px var(--efeito);
+    }
 
 }
 
@@ -390,11 +401,7 @@ body {
 }
 
 
-@media only screen and (max-width: 610px) {
-
-
-
-}
+@media only screen and (max-width: 610px) {}
 
 
 
@@ -415,7 +422,7 @@ body {
 
 
 
-/*------------- sessões com texto e imagem estática------------*/
+    /*------------- sessões com texto e imagem estática------------*/
 
 
     .infos article {
@@ -455,7 +462,7 @@ body {
         padding: 4px 0px;
     }
 
-    input::placeholder{
+    input::placeholder {
         font-size: 0.9em;
     }
 

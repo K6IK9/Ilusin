@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilusion Busca</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/logo_ilusion_250.png" type="image/x-icon">
+    <style>  
+       .resu_busca {
+        background-color: #E1E2EF;
+        height: 500px;
+        border-radius: 10px;
+        padding: 20px;
+       } 
+
+       .resu_busca h1 {
+        color:  #8200fc;
+        text-align: center;
+       }
+
+       p {
+        display: inline;
+        font-size: 1.3em;
+       }
+
+       span {
+        font-weight: bold;
+       }
+    
+    </style>
+</head>
+
+<body>
+    <header class="container-top" id="header">
+        <nav class="navegacao-top">
+            <a href="../index.html">Sobre Nós</a>
+            <a href="#servicos">Serviços</a>
+            <img src="../img/logo_ilusion_250.png" alt="Logo Ilusion">
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contatos</a>
+        </nav>
+        </div>
+    </header>
+
+    <main>
+<section class="resu_busca">
+    <h1>Resultado de busca</h1>
+
+  "<span><p id="resultado"></p></span>" <p>Não encontrado!</p>
+
+</section>
+    </main>
+
+    
+    <footer>
+        <section id="contato">
+            <div class="ilusion">
+                <img src="../img/logo_ilusion_250.png" alt="logo">
+                <div>
+                    <h1>Ilusion</h1>
+                    <p>Onde a praticidade é mais que uma ilusão</p>
+                </div>
+            </div>
+            <div class="links">
+                <h1>Entre em contato</h1>
+                <nav>
+
+                    <a href="https://www.instagram.com/" target="_blank"><img class="img" src="../img/instagram.svg"
+                            alt="Instagram"></a>
+
+
+                    <a href="mailto:ilusion.inc@devfoftware.com.br" target="_blank"> <img class="svg_gmail" src="../svg/gmail.svg" alt="">
+
+
+                    </a>
+
+
+                    <a href="https://api.whatsapp.com/send/?phone=5566996917498&text&type=phone_number&app_absent=0"
+                        target="_blank"><img class="img" src="../img/whatsapp.svg" alt="whatsapp"></a>
+                </nav>
+            </div>
+        </section>
+        <section class="rodape">
+            <p>Todos os Direitos reservados Ilusion.Inc ©</p>
+        </section>
+    </footer>
+
+
+
+
+   
+    <script>
+
+        var urlParams = new URLSearchParams(window.location.search);
+        var valor = urlParams.get('valor');
+
+     
+        document.getElementById("resultado").innerHTML = valor;
+
+
+    </script>
+</body>
+
+</html>

@@ -79,8 +79,16 @@ window.onscroll = function() {
   if (prevScrollPos > currentScrollPos) {
     document.getElementById("header").style.top = "4px";
   } else {
-    document.getElementById("header").style.top = "-55px"; // Altura do cabeçalho para escondê-lo completamente
+    document.getElementById("header").style.top = "-70px"; // Altura do cabeçalho para escondê-lo completamente
   }
 
   prevScrollPos = currentScrollPos;
 }
+
+function redirecionar() {
+  
+  var valorDoInput = document.getElementById("meuInput").value;
+  window.location.href = "../page/busca.html?valor=" + encodeURIComponent(valorDoInput);
+  console.log(valorDoInput);
+}
+

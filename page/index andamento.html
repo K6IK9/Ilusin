@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página em Andamento</title>
+    <title>Ilusion | Página Indisponível</title>
+    <link rel="shortcut icon" href="../img/logo_ilusion_250.png" type="image/x-icon">
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            background-color: #05204A;
             margin: 0;
             padding: 0;
         }
@@ -29,21 +31,47 @@
         p {
             color: #666;
         }
+
+        button {
+            background-color: #000000;
+            ;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.5em;
+            cursor: pointer;
+            color: white;
+            box-shadow: 4px 4px #8200fc99, -4px -4px #9619b2;
+            margin: 20px 35px;
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
         <h1>Página em Andamento</h1>
         <p>Nossa página está em construção e em breve estará disponível.</p>
         <p>Por favor, volte mais tarde para conferir as atualizações.</p>
 
-        <button onclick="goBack()">Voltar</a></button>
+        <button onclick="redirecionar_port()">Portfólio</button>
+        <button onclick="goBack()">Voltar</button>
+        <button onclick="redirecionar_serv()">Serviços</button>
+
     </div>
 
     <script>
         function goBack() {
             window.history.back();
         }
+
+        function redirecionar_port() {
+            window.location.href = "../index.html";
+        }
+        function redirecionar_serv() {
+            window.location.href = "../PrincipalIlusionService-main/index.html";
+        }
+
+
     </script>
 </body>
+
 </html>

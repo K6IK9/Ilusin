@@ -106,10 +106,21 @@ window.onscroll = function() {
   prevScrollPos = currentScrollPos;
 }
 
+
+
+document.addEventListener('keypress', function(e){
+  if(e.key == 'Enter'){
+    redirecionar();
+  }
+})
+
 function redirecionar() {
   
   var valorDoInput = document.getElementById("meuInput").value;
   window.location.href = "../page/busca.html?valor=" + encodeURIComponent(valorDoInput);
   console.log(valorDoInput);
 }
+
+
+
 

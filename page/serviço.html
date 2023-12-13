@@ -9,27 +9,30 @@
     <link rel="stylesheet" href="style/style-carrosel.css">
     <title>Ilusion Services</title>
     <style>
-body {
+        body {
             font-family: Arial, sans-serif;
-            
+
             margin: 0;
             padding: 0;
         }
 
         main {
-            background-color:  #E1E2EF;
+            background-color: #E1E2EF;
             width: 80%;
             height: 600px;
         }
+
         .primeira {
             width: 100%;
             text-align: center;
         }
+
         .titulo {
             text-align: center;
             font-size: 2.2em;
             width: 100%;
         }
+
         button {
             width: 100px;
             height: 50px;
@@ -41,6 +44,20 @@ body {
             font-weight: 900;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             cursor: pointer;
+        }
+
+
+        @media only screen and (max-width: 550px) {
+            .titulo {
+                font-size: 1em;
+
+            }
+
+            button {
+                width: 100px;
+                height: 30px;
+            }
+
         }
     </style>
 </head>
@@ -55,7 +72,7 @@ body {
             <a href="#prestador">Prestadores</a>
             <a href="../page/index andamento.html">Login</a>
         </nav>
-    
+
     </header>
 
     <main>
@@ -66,10 +83,6 @@ body {
         </section>
 
     </main>
-
-
-
-
 
     <footer>
         <section id="contato">
@@ -102,10 +115,10 @@ body {
     </footer>
 
     <script>
-        
-       function goBack() {
-        window.history.back();
-       }
+
+        function goBack() {
+            window.history.back();
+        }
     </script>
 
 

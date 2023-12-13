@@ -42,7 +42,7 @@ a {
     display: inline-block;
     background-color: var(--fundo);
     width: 500px; /* Defina a largura desejada para as imagens */
-    height: 300px; /* Defina a altura desejada para as imagens */
+    height: 360px; /* Defina a altura desejada para as imagens */
     margin: 5px 8px;
     border-radius: 15px 15px 25px 25px;
     box-shadow: 2px 1px 8px rgba(0, 0, 0, 0.345);
@@ -107,23 +107,17 @@ a {
 
     .conteudo a figure, .conteudo02 a figure {
         width: 65%;
+        height: 360px;
     }
 
 }
 
-@media only screen and (max-width: 420px) {
-
-    .conteudo a figure, .conteudo02 a figure {
-        width: 80%;
-    }
-
-}
 
 @media only screen and (max-width: 430px) {
 
     .conteudo a figure, .conteudo02 a figure {
         width: 80%;
-        height: 260px;
+        height: 360px;
     }
 
 }

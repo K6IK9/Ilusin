@@ -89,6 +89,8 @@ galeria02.addEventListener('touchmove', (e) => {
 });
 
 
+
+
 /***** header sumiço*****/
 
 
